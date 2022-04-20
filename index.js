@@ -118,7 +118,7 @@ outputData.addEventListener("click", function handleClick(ev) {
 
   removeList(); // убираем подсказки
 
-  input.value = ""; // чистим инпут
+  //input.value = ""; // чистим инпут
 });
 
 outputData.removeEventListener('click', handleClick);
